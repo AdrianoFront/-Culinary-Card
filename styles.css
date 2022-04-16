@@ -1,3 +1,10 @@
+* {
+  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fafafa;
@@ -34,7 +41,7 @@ h1 {
 .image {
   float: right;
   max-width: 150px;
-  max-height: 150px;
+  max-height: 120px;
 }
 
 .blue {
@@ -47,4 +54,13 @@ h1 {
 
 .red {
   border-left: 3px solid #b3404a;
+}
+
+@media (max-width: 800px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 809px;
+  }
 }
