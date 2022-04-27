@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: helvetica, arial, sans-serif;
   background-color: #fafafa;
 }
 
@@ -14,7 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /*max-width: 500px;*/
 }
 
 h1 {
@@ -41,7 +40,7 @@ h1 {
 }
 
 .card p {
-  color: #abacb3;
+  color: #616165;
   font-size: 16px;
 }
 
